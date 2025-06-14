@@ -14,20 +14,20 @@ git clone --depth 1 https://github.com/tinloof/medusa-b2c-starter
 
 2. Install dependencies:
 
-This project utilizes pnpm for package management and monorepo functionality. To install dependencies using pnpm, execute the following command:
+This project utilizes yarn for package management and monorepo functionality. To install dependencies using yarn, execute the following command:
 
 ```
-pnpm install
+yarn install
 ```
 
 ## Sanity Setup
 
 To set up Sanity for your project:
 
-1. `cd` into the `frontend` directory:
+1. `cd` into the `storefront` directory:
 
 ```
-cd frontend
+cd storefront
 ```
 
 2. Run the `sanity init` command:
@@ -36,7 +36,7 @@ cd frontend
 pnpx sanity init --env
 ```
 
-3. Make sure to append `NEXT_PUBLIC_` where it makes sense in your `.env` file, you can refer to the `.env.example` file in the `frontend` directory.
+3. Make sure to append `NEXT_PUBLIC_` where it makes sense in your `.env` file, you can refer to the `.env.example` file in the `storefront` directory.
 
 4. Set the `NEXT_PUBLIC_SANITY_API_VERSION` in `.env` to today's date in the format `YYYY-MM-DD`.
 
